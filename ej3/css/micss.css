@@ -11,3 +11,21 @@
 .clase4{
     line-height: 100px;
 }
+.clase5{
+    word-spacing: 10px;
+}
+.clase6{
+    word-spacing: 50px;
+}
+.clase7{
+   text-shadow:  rgb(221, 179, 10) 0px 0px 10px;
+}
+.clase8{
+    text-shadow: 0px 0px 5px black;
+}
+.clase9{
+    text-indent: 15%;
+}
+.clase10{
+    text-indent: 50%;
+}

@@ -1,0 +1,15 @@
+ul.a{
+    list-style-type: none;
+}
+ul.b{
+    list-style-type: inside;
+}
+
+ol.c{
+    list-style: georgian inside;
+}
+
+ol.d{
+    list-style-image: url('./icons8-ok-hand-32.png');
+}
+

@@ -1,0 +1,42 @@
+table,
+tr,
+td {
+  border: solid 1px #a7c942;
+  padding: 3 px;
+  
+}
+
+th {
+  border: solid 1px #a7c942;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eaf2d3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+thead th {
+  background-color: #a7c942;
+}
+
+td:hover{
+    background-color: #bec5aa;
+}
+
+div{
+  width: auto;
+  border: solid 1px rgb(216, 216, 216);
+  position: absolute;
+  padding: 10px;
+}
+
+caption{
+  caption-side: bottom;
+}
+
+
+

@@ -1,0 +1,17 @@
+input:checked{
+    counter-increment: items;
+    background-color: rgb(170, 170, 170);
+}
+
+.items {
+    counter-reset: items;
+  }
+
+.total:after{
+content: counter(items);
+}
+
+label{
+    box-sizing: border-box;
+}
+
