@@ -11,7 +11,19 @@ input:checked{
 content: counter(items);
 }
 
-label{
-    box-sizing: border-box;
+input[type=checkbox]{
+    visibility: hidden;
+}
+
+label { 
+    background-color:rgb(190, 190, 190); 
+    color:#FFF; 
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;}
+
+input[type=checkbox]:checked + label {
+    background: brown;
+    
 }
 
